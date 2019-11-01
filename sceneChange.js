@@ -11,7 +11,7 @@ document.querySelector('[data-start="startAnimation"]').addEventListener("click"
 })
 
 function startAnimation(){
-    fetch("eye_01.svg").then(e => e.text()).then(svg =>{
+    fetch("/eye_01.svg").then(e => e.text()).then(svg =>{
         console.log("fetch 1 ran");
         document.querySelector("main").innerHTML = svg;
     });
@@ -21,7 +21,7 @@ function startAnimation(){
 
 //Next scene
 function scene02(){
-    fetch("eye_02.svg").then(e => e.text()).then(svg =>{
+    fetch("/eye_02.svg").then(e => e.text()).then(svg =>{
         console.log("fetch 2 ran");
         document.querySelector("main").innerHTML = svg;
     });
@@ -29,7 +29,7 @@ function scene02(){
 }
 
 function scene03(){
-    fetch("eye_03.svg").then(e => e.text()).then(svg =>{
+    fetch("/eye_03.svg").then(e => e.text()).then(svg =>{
         console.log("fetch 2 ran");
         document.querySelector("main").innerHTML = svg;
     });
@@ -37,7 +37,7 @@ function scene03(){
 }
 
 function scene04(){
-    fetch("eye_04.svg").then(e => e.text()).then(svg =>{
+    fetch("/eye_04.svg").then(e => e.text()).then(svg =>{
         console.log("fetch 2 ran");
         document.querySelector("main").innerHTML = svg;
     });
@@ -45,7 +45,7 @@ function scene04(){
 }
 
 function scene05(){
-    fetch("eye_05.svg").then(e => e.text()).then(svg =>{
+    fetch("/eye_05.svg").then(e => e.text()).then(svg =>{
         console.log("fetch 2 ran");
         document.querySelector("main").innerHTML = svg;
     });
