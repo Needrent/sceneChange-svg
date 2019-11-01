@@ -1,0 +1,13 @@
+<svg id="eye" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>eye</title>
+  <path class="cls-1" d="M405.21,249.5S304.87,294.71,250,294.71,94.79,249.5,94.79,249.5,195.13,205.29,250,205.29,405.21,249.5,405.21,249.5Z"/>
+</svg>
